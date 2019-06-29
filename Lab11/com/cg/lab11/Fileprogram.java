@@ -60,6 +60,6 @@ public class Fileprogram {
 
         } catch (IOException e) {
             System.out.println("Wrong input given");
-        }
+        }  
     }
 }
