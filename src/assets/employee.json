@@ -1,0 +1,20 @@
+[
+    {
+        "empId":1001,
+        "empName":"AKhil",
+        "empSalary":10000,
+        "empDept":"JAVA"
+    },
+    {
+        "empId":1002,
+        "empName":"Ajay",
+        "empSalary":12000,
+        "empDept":"JAVA"
+    },
+    {
+        "empId":1003,
+        "empName":"Sunny",
+        "empSalary":13000,
+        "empDept":"JAVASCRIPT"
+    }
+]

@@ -1,0 +1,17 @@
+<h1 align="center">LOGIN</h1>
+<table align ="center">
+    <tr>
+        <td>Username</td>
+        <input type="text" class="form-control" name="name" id="upname" [(ngModel)]="uName" #nameControl="ngModel" required  >
+        <span  class="alert alert-danger" role="alert" *ngIf="nameControl.touched && nameControl.invalid">Username required</span>  
+    </tr>
+    <tr>
+        <td>Password</td>
+        <input type="password" class="form-control" name="pass" id="uppass" [(ngModel)]="uPass" #passControl="ngModel" required  >
+        <span  class="alert alert-danger" role="alert" *ngIf="passControl.touched && passControl.invalid">Password required</span>  
+    </tr>
+    <div>
+        <input type="button" value="LOGIN" class="btn btn-primary" (click)="login()">
+    </div>
+    
+</table>
